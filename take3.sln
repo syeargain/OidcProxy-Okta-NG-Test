@@ -5,6 +5,14 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OidcProxy-Okta-Angular3", "OidcProxy-Okta-Angular3.csproj", "{1051BF38-F413-4ABF-A404-DA71A594B10D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OIDC Proxy", "OIDC Proxy", "{64799ACE-7927-414B-8119-B193D3D9918B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OidcProxy.Net", "..\..\..\github\OidcProxy.Net\src\OidcProxy.Net\OidcProxy.Net.csproj", "{00F1D21B-99E0-448C-AE0C-255D93152882}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OidcProxy.Net.OpenIdConnect", "..\..\..\github\OidcProxy.Net\src\OidcProxy.Net.OpenIdConnect\OidcProxy.Net.OpenIdConnect.csproj", "{3CE5CFC8-C7B4-4B71-A49C-5A2FEA8ED1DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OidcProxy.Net.Okta", "..\..\..\github\OidcProxy.Net\src\OidcProxy.Net.Okta\OidcProxy.Net.Okta.csproj", "{8F8539EA-1F91-482C-832D-0D9DC9810B6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,26 @@ Global
 		{1051BF38-F413-4ABF-A404-DA71A594B10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1051BF38-F413-4ABF-A404-DA71A594B10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1051BF38-F413-4ABF-A404-DA71A594B10D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00F1D21B-99E0-448C-AE0C-255D93152882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F1D21B-99E0-448C-AE0C-255D93152882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F1D21B-99E0-448C-AE0C-255D93152882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F1D21B-99E0-448C-AE0C-255D93152882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE5CFC8-C7B4-4B71-A49C-5A2FEA8ED1DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE5CFC8-C7B4-4B71-A49C-5A2FEA8ED1DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE5CFC8-C7B4-4B71-A49C-5A2FEA8ED1DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE5CFC8-C7B4-4B71-A49C-5A2FEA8ED1DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F8539EA-1F91-482C-832D-0D9DC9810B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8539EA-1F91-482C-832D-0D9DC9810B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8539EA-1F91-482C-832D-0D9DC9810B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8539EA-1F91-482C-832D-0D9DC9810B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00F1D21B-99E0-448C-AE0C-255D93152882} = {64799ACE-7927-414B-8119-B193D3D9918B}
+		{3CE5CFC8-C7B4-4B71-A49C-5A2FEA8ED1DC} = {64799ACE-7927-414B-8119-B193D3D9918B}
+		{8F8539EA-1F91-482C-832D-0D9DC9810B6D} = {64799ACE-7927-414B-8119-B193D3D9918B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7B649007-583A-4310-87E3-0B5BE700503C}
